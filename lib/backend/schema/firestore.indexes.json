@@ -1,0 +1,82 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "prod_classification",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ref_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cla_classification",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "prod_product_parameter",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "scr_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateCreate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "prod_script_reference",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "scr_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "scr_ref_classification",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "prod_product_parameter",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "scr_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "par_select",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "par_description",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "prod_product_image",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "prodID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "img_order",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "img_create",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
